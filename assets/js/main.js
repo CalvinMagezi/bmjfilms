@@ -9,6 +9,12 @@
         .fadeOut("slow", function () {
           $(this).remove();
         });
+
+        setTimeout(function(){
+          $('#start-text').fadeOut("slow", function(){
+            $(this).remove();
+          })
+        },3000)
     }
   });
 
