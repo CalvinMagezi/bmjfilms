@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Monoton-Regular';
+  src: URL('Monoton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Baron';
+  src: URL('Baron-Neue-Black.otf') format('opentype');
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -31,6 +41,7 @@ h6 {
   height: 100%;
   z-index: 9999;
   overflow: hidden;
+  font-family: Monton-Regular;
   position: fixed;
   text-align: center;
   align-items: center;
@@ -44,13 +55,12 @@ h6 {
 
 #start-text h1 {
   color: #fff;
+  font-family: Monton-Regular;
   font-weight: 900;
   font-size: 4rem;
   margin-top: 50%;
 }
 
-#start-text span {
-}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -225,18 +235,19 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  text-align: left;
   padding-top: 40px;
   padding-bottom: 40px;
+  font-family: Monoton-Regular;
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
+  font-family: Monoton-Regular;
+  font-size: 32px;  
   text-transform: uppercase;
   margin-bottom: 15px;
   padding-bottom: 0;
-  color: #151515;
+  color: #df2904;
 }
 
 .section-title p {
@@ -282,9 +293,14 @@ section {
 # Resources
 --------------------------------------------------------------*/
 #resources{
+  font-family: Monoton-Regular;
   background: #dd0202;
   padding: 10px;
   color: white;
+}
+
+#resources h1{
+  font-family: Monoton-Regular;
 }
 /*--------------------------------------------------------------
 # Quotes
@@ -294,6 +310,11 @@ section {
   color: #e8d705;
   margin-top: 160px;
   padding: 5px;
+  font-family: Baron;
+}
+
+#quotes h2{
+  font-family: Baron;
 }
 
 #about-nicole{
@@ -301,6 +322,58 @@ section {
   padding: 10px;
   color: #dd0202;
 }
+
+/*--------------------------------------------------------------
+# Store
+--------------------------------------------------------------*/
+#store{
+  background:#dd0202 ;
+  color: #e8d705;
+  margin-top: 160px;
+  padding: 5px;
+  font-family: Baron;
+}
+
+#store img{
+  width: 100%;
+}
+
+#store h2{
+  font-family: Baron;
+}
+
+/*--------------------------------------------------------------
+# Slate
+--------------------------------------------------------------*/
+#slate{
+  background:#dd0202 ;
+  color: #e8d705;
+  margin-top: 160px;
+  padding: 5px;
+  font-family: Baron;
+}
+
+#slate img{
+  width: 100%;
+}
+
+#store h2{
+  font-family: Baron;
+}
+
+#slate .pz1{
+  position: absolute;
+  top: 5%;
+  left: 32%;
+}
+
+#slate .pz3{
+  position: absolute;
+  top: 5%;
+  right: 32%;
+}
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
