@@ -363,14 +363,18 @@ section {
 
 #slate .pz1{
   position: absolute;
-  top: 5%;
-  left: 32%;
+  top: -4%;
+  left: 35%;
+}
+
+#slate .pz2{
+  z-index: 1;
 }
 
 #slate .pz3{
   position: absolute;
-  top: 5%;
-  right: 32%;
+  top: -4%;
+  right: 35%;
 }
 
 
