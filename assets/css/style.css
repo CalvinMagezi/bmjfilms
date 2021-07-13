@@ -8,6 +8,12 @@
   src: URL('Baron-Neue-Black.otf') format('opentype');
 }
 
+@media(max-width:768px){
+  .large-screen-menu{
+    opacity: 0;
+  }
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -306,10 +312,8 @@ section {
 # Quotes
 --------------------------------------------------------------*/
 #quotes{
-  background:#dd0202 ;
-  color: #e8d705;
-  margin-top: 160px;
-  padding: 5px;
+  background:#e8d705 ;
+  color: #c53b96;
   font-family: Baron;
 }
 
@@ -1233,7 +1237,13 @@ section {
   color: #dd0202;
   margin-top: 160px;
   border-bottom: 40px solid #dd0202;
+  font-family: Baron;
 }
+
+.contact i{
+  color: #dd0202 !important;
+}
+
 .contact .info {
   width: 100%;
   height: 100%;
