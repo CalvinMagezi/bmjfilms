@@ -332,8 +332,7 @@ section {
 --------------------------------------------------------------*/
 #store{
   background:#dd0202 ;
-  color: #e8d705;
-  margin-top: 160px;
+  color: #e8d705;  
   padding: 5px;
   font-family: Baron;
 }
@@ -351,8 +350,7 @@ section {
 --------------------------------------------------------------*/
 #slate{
   background:#dd0202 ;
-  color: #e8d705;
-  margin-top: 160px;
+  color: #e8d705;  
   padding: 5px;
   font-family: Baron;
 }
@@ -1235,7 +1233,7 @@ section {
 #contact{
   background:#e8d705  ;
   color: #dd0202;
-  margin-top: 160px;
+  
   border-bottom: 40px solid #dd0202;
   font-family: Baron;
 }
